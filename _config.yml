@@ -1,0 +1,10 @@
+title: Long Data
+ga_id:
+
+repository:
+gems:
+  - jekyll-seo-tag
+exclude:
+  - /vendor
+  - /.bundle
+  - .gitignore
