@@ -1,9 +1,23 @@
 title: Long Data
 ga_id:
 
-repository:
+source: jekyll
+
+permalink: pretty
+
+twitter:
+  username:
+
+social:
+  name: Long Data
+  links:
+
+repository: yaworsw/long_data_site
+
 gems:
+  - jekyll-redirect-from
   - jekyll-seo-tag
+
 exclude:
   - /vendor
   - /.bundle
