@@ -2,3 +2,5 @@
 /_site
 /vendor
 .DS_Store
+/notes
+/node_modules

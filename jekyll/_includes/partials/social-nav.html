@@ -1,0 +1,13 @@
+<nav class="social-nav">
+  {% for navItem in site.data.socialNav %}
+    <div class="nav-item">
+      <a href="{% if navItem.path %}{{ navItem.path }}{% else %}{{ navItem.url }}{% endif %}" title="{{ navItem.title }}">
+      {% if navItem.icon %}
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+      {% else %}
+        {{ navItem.title }}
+      {% endif %}
+      </a>
+    </div>
+  {% endfor %}
+</nav>

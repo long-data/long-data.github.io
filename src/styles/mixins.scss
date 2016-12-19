@@ -1,0 +1,13 @@
+$logo-root: '/assets/images/logo';
+
+@function logo-path($name, $small: true, $type: 'png') {
+  $small-str: '';
+  @if ($small) {
+    $small-str: '_small';
+  }
+  @return url("#{$logo-root}/#{$type}/#{$name}#{$small-str}.#{$type}");
+}
+
+@function logo($fg: 'color', $bg: 'transparent', $small: true) {
+  @return logo-path("#{$fg}_logo_#{$bg}_background", $small, 'png');
+}

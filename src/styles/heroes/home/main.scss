@@ -1,0 +1,21 @@
+.hero.home-main {
+  $home-main-height: 600px;
+
+  background: $primary;
+  color: white;
+  height: $home-main-height;
+  .content {
+    height: $home-main-height;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    font-size: 17px;
+    .btn-container {
+      position: relative;
+      top: 10px;
+    }
+    .btn {
+      font-size: 15px;
+    }
+  }
+}

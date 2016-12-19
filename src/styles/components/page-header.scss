@@ -1,0 +1,40 @@
+.page-header {
+  $page-header-height: 76px;
+  $active-link-bottom-border-size: 5px;
+
+  background: $d;
+
+  a {
+    color: $dc;
+    display: inline-block;
+    padding: 0 ($std-padding / 2);
+  }
+
+  nav {
+    display: inline-block;
+    height: 100%;
+  }
+
+  .nav-container {
+    height: $page-header-height;
+    text-align: right;
+  }
+
+  .nav-item {
+    display: inline-block;
+    line-height: $page-header-height;
+    &.active a {
+      border-bottom: $active-link-bottom-border-size solid $primary;
+      height: $page-header-height;
+    }
+  }
+
+  .branding {
+    text-align: center;
+    img {
+      margin: 0 auto;
+      height: $page-header-height;
+      padding: $std-padding 0;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.home-contact {
+  padding-bottom: 24px;
+
+  .btn-container {
+    text-align: right;
+  }
+
+  .btn {
+    background: black;
+    color: white;
+    &:after {
+      border-color: white;
+    }
+  }
+}

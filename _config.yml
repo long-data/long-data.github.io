@@ -3,6 +3,10 @@ ga_id:
 
 source: jekyll
 
+collections:
+- pillars
+
+
 permalink: pretty
 
 twitter:
@@ -13,12 +17,8 @@ social:
   links:
 
 repository: yaworsw/long_data_site
+baseurl: ''
 
 gems:
   - jekyll-redirect-from
   - jekyll-seo-tag
-
-exclude:
-  - /vendor
-  - /.bundle
-  - .gitignore

@@ -1,0 +1,16 @@
+.page-footer {
+  background: $d;
+
+  padding: $std-padding 0;
+
+  .footer-nav {
+    text-align: right;
+  }
+}
+
+.copyright-container {
+  background: $dc;
+  color: $d;
+
+  padding: $std-padding 0;
+}

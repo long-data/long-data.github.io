@@ -1,0 +1,16 @@
+[
+  { "title": "Home",
+    "path":  "/" },
+  { "title": "About Us",
+    "path":  "/about/" },
+  { "title": "Five Pillars",
+    "path":  "/about/five-pillars/" },
+  { "title": "What is LoRa",
+    "path":  "/about/what-is-lora/" },
+  { "title": "Training",
+    "path":  "/training/" },
+  { "title": "Community",
+    "path":  "/about/maker-community/" },
+  { "title": "Contact Us",
+    "path":  "/#contact" },
+]

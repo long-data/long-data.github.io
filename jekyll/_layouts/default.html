@@ -3,8 +3,10 @@
   <head>
     {% include head.html %}
   </head>
-  <body>
-
+  <body class="layout-default">
+    {% include partials/page-header.html %}
+    {{ content }}
+    {% include partials/page-footer.html %}
     {% include foot.html %}
   </body>
 </html>

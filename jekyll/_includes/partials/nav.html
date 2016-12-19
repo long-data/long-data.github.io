@@ -1,0 +1,13 @@
+<nav{% if include.class %} class="{{ include.class }}"{% endif %}>
+  {% for navItem in include.nav %}
+    <div class="nav-item{% if page.url == navItem.path %} active{% endif %}">
+      <a href="{% if navItem.path %}{{ navItem.path }}{% else %}{{ navItem.url }}{% endif %}" title="{{ navItem.title }}">
+      {% if navItem.icon %}
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+      {% else %}
+        {{ navItem.title }}
+      {% endif %}
+      </a>
+    </div>
+  {% endfor %}
+</nav>
