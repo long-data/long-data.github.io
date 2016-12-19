@@ -6,7 +6,6 @@ source: jekyll
 collections:
 - pillars
 
-
 permalink: pretty
 
 twitter:
