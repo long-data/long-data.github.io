@@ -9,17 +9,17 @@ module.exports = {
 
   entry: 'script.js',
   output: {
-    path: __dirname + '/jekyll/assets',
+    path: __dirname + '/../assets',
     filename: '[name].js'
   },
 
   resolve: {
     extensions: ['', '.jsx', '.js', '.scss'],
     root: [
-      path.resolve('./src'),
+      __dirname,
     ],
     moduleDirectories: [
-      path.resolve('./node_modules')
+      path.join(__dirname, 'node_modules')
     ]
   },
 
@@ -39,7 +39,7 @@ module.exports = {
   plugins: [
     new ExtractTextPlugin('style.css'),
     new WebpackOnBuildPlugin(function(stats) {
-      fs.writeFileSync(path.join(__dirname, 'jekyll', '_data', 'generated.yml'), `assetsHash: ${stats.hash}`);
+      fs.writeFileSync(path.join(__dirname, '..', '_data', 'generated.yml'), `assetsHash: ${stats.hash}`);
     }),
   ]
 

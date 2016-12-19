@@ -1,4 +1,4 @@
-WEBPACK=./node_modules/.bin/webpack
+WEBPACK=cd src; ./node_modules/.bin/webpack
 WEBPACK_FLAGS=--config webpack.config.js --progress --colors
 
 JEKYLL=bundle exec jekyll

@@ -1,8 +1,6 @@
 title: Long Data
 ga_id:
 
-source: jekyll
-
 collections:
 - pillars
 
@@ -21,3 +19,12 @@ baseurl: ''
 gems:
   - jekyll-redirect-from
   - jekyll-seo-tag
+
+exclude:
+  - src
+  - .nvmrc
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - Makefile
