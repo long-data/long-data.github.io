@@ -16,6 +16,9 @@ social:
 repository: yaworsw/long_data_site
 baseurl: ''
 
+sass:
+  style: compressed
+
 gems:
   - jekyll-redirect-from
   - jekyll-seo-tag
