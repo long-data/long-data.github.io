@@ -1,4 +1,4 @@
-$logo-root: '/assets/images/logo';
+$logo-root: 'images/logo';
 
 @function logo-path($name, $small: true, $type: 'png') {
   $small-str: '';

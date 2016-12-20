@@ -14,7 +14,7 @@ social:
   links:
 
 repository: yaworsw/long_data_site
-baseurl: ''
+baseurl: '/long_data_site'
 
 sass:
   style: compressed
