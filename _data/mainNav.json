@@ -9,8 +9,6 @@
     "path":  "/about/what-is-lora/" },
   { "title": "Training",
     "path":  "/training/" },
-  { "title": "Community",
-    "path":  "/about/maker-community/" },
   { "title": "Contact Us",
     "path":  "/#contact" },
 ]

@@ -1,13 +1,8 @@
 ---
-title: Gateways
+title: Funding
 subtitle: TODO
 
 image: http://placehold.it/300x300
 ---
 
-The Gateway is the front end of the system. It receives the wireless data from
-the LoRaWAN products and re-packetizes the data for the internet. We have a
-number of volunteers on this team from Aclara RF (experience in RF deployment),
-Bird Electronics (RF test equipment), and Embedded Planet (design and
-manufacture of IOT Gateways). Their job has been to identify the site for
-maximum coverage in each deployment.
+Our funding team is very active in the Maker community and as such has been instrumental in initiating funds for this project through the angel community. Just as we have volunteers to develop the program we have angels who have contributed to the program. The entities represented on this team are the University of Akron Research Foundation and think[box] from Case Western Reserve.

@@ -1,0 +1,44 @@
+.lora-page {
+  font-size: 24px;
+
+  .header {
+    background: $primary;
+    color: $primary-fg;
+    padding: 45px;
+
+    .emph {
+      font-size: 36px;
+    }
+  }
+
+  .features {
+
+  }
+  .feature {
+    padding: 45px 0;
+    &.transmission {
+      background: $e;
+      color: $e-fg;
+    }
+
+    &.communication {
+      background: $d;
+      color: $d-fg;
+    }
+
+    &.distance {
+      background: $dc;
+      color: $dc-fg;
+    }
+
+    &.security {
+      background: $secondary;
+      color: $secondary-fg;
+    }
+  }
+
+  .feature-image-container-third {
+    padding-top: $std-padding * 2;
+    text-align: center;
+  }
+}
