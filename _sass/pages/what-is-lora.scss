@@ -37,8 +37,16 @@
     }
   }
 
+  .feature-image-container {
+    text-align: center;
+  }
+
   .feature-image-container-third {
     padding-top: $std-padding * 2;
     text-align: center;
+  }
+
+  .feature-image {
+    width: 100%;
   }
 }
