@@ -1,6 +1,6 @@
 ---
 title: Gateways
-subtitle: TODO
+subtitle:
 
 image: http://placehold.it/300x300
 ---

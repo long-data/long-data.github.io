@@ -1,13 +1,10 @@
 ---
-title: Gateways
-subtitle: TODO
+title: Big Data
+subtitle:
 
 image: http://placehold.it/300x300
 ---
 
-The Gateway is the front end of the system. It receives the wireless data from
-the LoRaWAN products and re-packetizes the data for the internet. We have a
-number of volunteers on this team from Aclara RF (experience in RF deployment),
-Bird Electronics (RF test equipment), and Embedded Planet (design and
-manufacture of IOT Gateways). Their job has been to identify the site for
-maximum coverage in each deployment.
+Big data includes the Network Server and Application servers. The Network Server is hosted by Arrow Electronics and decides whether the LoRa
+data is valid. If the data is valid the Network server packetizes the data and transfers it to the Application Server. The Application Server will either show the
+data in the cloud or provide another service to close the process loop.

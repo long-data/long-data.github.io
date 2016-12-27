@@ -1,13 +1,9 @@
 ---
-title: Gateways
-subtitle: TODO
+title: Development tools
+subtitle:
 
 image: http://placehold.it/300x300
 ---
 
-The Gateway is the front end of the system. It receives the wireless data from
-the LoRaWAN products and re-packetizes the data for the internet. We have a
-number of volunteers on this team from Aclara RF (experience in RF deployment),
-Bird Electronics (RF test equipment), and Embedded Planet (design and
-manufacture of IOT Gateways). Their job has been to identify the site for
-maximum coverage in each deployment.
+The development boards, designed by Tiny Circuits, are Arduino™ boards featuring a Laird LoRaWAN transceiver and a common
+sensor input. There is an ecosystem to support the development process with example code. These boards are Powered by Energizer.

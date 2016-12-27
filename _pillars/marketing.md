@@ -1,13 +1,9 @@
 ---
-title: Gateways
-subtitle: TODO
+title: Marketing
+subtitle:
 
 image: http://placehold.it/300x300
 ---
 
-The Gateway is the front end of the system. It receives the wireless data from
-the LoRaWAN products and re-packetizes the data for the internet. We have a
-number of volunteers on this team from Aclara RF (experience in RF deployment),
-Bird Electronics (RF test equipment), and Embedded Planet (design and
-manufacture of IOT Gateways). Their job has been to identify the site for
-maximum coverage in each deployment.
+Our marketing team is in charge of web development and getting the word out about training classes and hackathons. The marketing team is
+lead by Arrow Electronics and includes Laird Corporation and Leandog.
