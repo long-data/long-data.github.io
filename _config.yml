@@ -25,9 +25,7 @@ gems:
 
 exclude:
   - src
-  - .nvmrc
   - .gitignore
   - Gemfile
   - Gemfile.lock
   - README.md
-  - Makefile
