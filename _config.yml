@@ -13,8 +13,7 @@ social:
   name: Long Data
   links:
 
-repository: yaworsw/long_data_site
-baseurl: '/long_data_site'
+repository: long-data/long-data.github.io
 
 sass:
   style: compressed
