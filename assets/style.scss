@@ -8,6 +8,10 @@
 @import "vendor/bootstrap";
 @import "mixins";
 
+body {
+  background: $d;
+}
+
 @import "components/page-header";
 @import "components/page-footer";
 @import "components/hero";
@@ -19,4 +23,5 @@
 
 @import "pages/pillars";
 @import "pages/training";
+@import "pages/page";
 @import "pages/what-is-lora";

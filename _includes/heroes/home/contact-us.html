@@ -5,19 +5,20 @@
         <h2>Contact Us</h2>
         <p>LongData is always looking for volunteers to help expand our offerings as well as people to provide
         our services to.</p>
-        <form class="container">
+        <form class="container" method="POST" action="http://formspree.io/jkerg@arrow.com">
+          <input type="text" name="_gotcha" style="display:none" />
           <div class="row">
             <div class="col-xs-6">
-              {% include components/input.html id='contact-us-name-field' label='Your Name' name="name" %}
+              {% include components/input.html id='contact-us-name-field' label='Your Name' name='name' %}
             </div>
             <div class="col-xs-6">
-              {% include components/input.html id='contact-us-email-field' label='Your Email' name="email" %}
+              {% include components/input.html id='contact-us-email-field' label='Your Email' name='email' %}
             </div>
           </div>
 
           <div class="row">
             <div class="col-xs-12">
-              {% include components/input.html id='contact-us-subject-field' label='Subject' name="subject" %}
+              {% include components/input.html id='contact-us-subject-field' label='Subject' name='subject' %}
             </div>
           </div>
 

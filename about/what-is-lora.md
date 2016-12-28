@@ -68,7 +68,7 @@ title: What is LoRa?
             <img src="http://placehold.it/200x200x" alt="" class="feature-image" style="max-width:200px">
           </div>
           <div class="col-md-9 col-md-pull-3">
-            Transmission security is based on three keys including the IP address, Network Server and Application Server. Additional encryption is also available like AES256.
+            Transmission security is based on three keys including the IP address, Network Server and Application Server. Additional encryption is also available like AES128.
           </div>
         </div>
       </div>
