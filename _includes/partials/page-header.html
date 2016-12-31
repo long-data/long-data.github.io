@@ -1,17 +1,31 @@
 <header class="page-header">
   <div class="container">
     <div class="row">
-      <div class="col-xs-4">
+      <div class="col-sm-5 col-xs-10">
         <div class="branding">
           <a href="/" title="{{ site.title }}">
             <img src="{{ site.data.assets.darkLogo | prepend:site.baseurl }}" alt="{{ site.title }}">
           </a>
         </div>
       </div>
-      <div class="col-xs-8 nav-container">
+      <div class="col-sm-7 nav-container hidden-xs">
         {% include partials/nav.html class="main-nav" nav=site.data.mainNav %}
-
+      </div>
+      <div class="col-xs-2 visible-xs">
+        <div class="hamburger-menu" onClick="displayResponsiveNav()">
+          <i class="fa fa-bars"></i>
+        </div>
       </div>
     </div>
   </div>
 </header>
+
+<div id="responsive-nav">
+  <div class="hamburger-menu" onClick="hideResponsiveNav()">
+    <i class="fa fa-chevron-right"></i>
+  </div>
+  <br style="clear:both" />
+  <div class="responsive-nav-container">
+    {% include partials/nav.html class="responsive-nav" nav=site.data.mainNav %}
+  </div>
+</div>

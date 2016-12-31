@@ -15,6 +15,10 @@
     height: 100%;
   }
 
+  .main-nav {
+    overflow: hidden;
+  }
+
   .nav-container {
     height: $page-header-height;
     text-align: right;
@@ -30,11 +34,57 @@
   }
 
   .branding {
-    text-align: center;
     img {
       margin: 0 auto;
       height: $page-header-height;
       padding: $std-padding 0;
     }
+  }
+}
+
+.hamburger-menu {
+  border-radius: 4px;
+  border: 1px solid black;
+  font-size: 32px;
+  width: 50px;
+  text-align: center;
+  margin-top: 15px;
+  cursor: pointer;
+
+  float: right;
+}
+
+#responsive-nav {
+  position: fixed;
+  top:0;
+  right: -300px;
+  bottom: 0;
+
+  background: $d;
+  color: $d-fg;
+
+  z-index: 999;
+
+  text-align: right;
+
+  transition: right 0.5s;
+
+  .hamburger-menu {
+    position: relative;
+    right: 15px;
+  }
+
+  a {
+    display: block;
+    padding: 20px;
+    width: 300px;
+  }
+
+  &.show {
+    right: 0;
+  }
+
+  .hamburger-menu-close-container {
+
   }
 }
